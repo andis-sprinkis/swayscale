@@ -10,7 +10,7 @@ This repository is not a library, so just copy and adapt these files to your nee
 
 ## Limitations
 
-The scaled windows of a launched application are contained inside a single Sway instance window with the display scale applied. So are the other application windows spawned from the said application.
+The scaled windows of an application are contained inside a single Sway instance window with the display scale applied. So are the other application windows spawned from the said application.
 
 ## Screenshot
 
