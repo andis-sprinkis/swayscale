@@ -15,7 +15,7 @@ This repository is not a library, so just copy and modify these files to suit yo
 To launch application `ddd` at the display scale multiplied by `1.35`:
 
 ```sh
-swayscale "1.35" "ddd"
+swayscale "1.25" "ddd"
 ```
 
 ## Desktop files
