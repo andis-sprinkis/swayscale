@@ -1,8 +1,8 @@
-# Per application display scaling in Linux, using Sway
+# Per-application display scaling on Linux using the Sway WM instances
 
-A demonstration of how to get per-application GUI scaling on Linux, by containing the application in a window of a [Sway window manager](https://swaywm.org/) instance with a custom display scale applied.
+A demonstration of how to get per-application GUI scaling on Linux, by containing the application in a window of a [Sway window manager](https://swaywm.org/) instance, with a custom display scale applied.
 
-This is intended for user interfaces of older applications that do not scale to the modern OS GUI font resolution, therefore look tiny.
+This is intended for user interfaces of those older applications which do not scale to the modern OS GUI font resolution, therefore appear tiny.
 
 This is not a library, so just copy and adapt these files to your needs.
 
