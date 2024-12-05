@@ -1,6 +1,6 @@
 # Per application display scaling in Linux, using Sway
 
-A demonstration of how to get per-application display scaling on Linux, by containing the application in a window of a [Sway window manager](https://swaywm.org/) instance with a custom display scale applied.
+A demonstration of how to get per-application GUI scaling on Linux, by containing the application in a window of a [Sway window manager](https://swaywm.org/) instance with a custom display scale applied.
 
 This is intended for user interfaces of older applications that do not scale to the modern OS GUI font resolution, therefore look tiny.
 
@@ -10,10 +10,10 @@ This is not a library, so just copy and adapt these files to your needs.
 
 ## Usage
 
-To launch application `ddd` at the display scale multiplied by `1.75`:
+To launch application `ddd` at the display scale multiplied by `1.35`:
 
 ```sh
-swayscale "1.75" "ddd"
+swayscale "1.35" "ddd"
 ```
 
 ## Desktop files

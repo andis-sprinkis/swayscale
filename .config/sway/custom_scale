@@ -64,6 +64,10 @@ output * {
   scale_filter smart
 }
 
+exec_always xrdb -retain -load "${XDG_CONFIG_HOME:-$HOME/.config}/xresources/.Xresources"
+
+bindsym Mod1+q kill
+
 include /etc/sway/config.d/*
 
 # THE RELEVANT PART
