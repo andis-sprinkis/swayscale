@@ -8,6 +8,10 @@ It is indented to better display user interfaces of the older applications which
 
 This repository is not a library, so just copy and adapt these files to your needs.
 
+## Limitations
+
+The scaled windows of a launched application are contained inside a single Sway instance window with the display scale applied. So are the other application windows spawned from the said application.
+
 ## Screenshot
 
 ## Usage
@@ -25,10 +29,6 @@ To launch the upscaled application from the application launcher of a Linux desk
 See the example [`ddd_upscaled.desktop`](./.local/share/applications/ddd_upscaled.desktop) file.
 
 Related specifications: ["Desktop Entry Specification"](https://specifications.freedesktop.org/desktop-entry-spec/latest/), ["Association between MIME types and applications"](https://specifications.freedesktop.org/mime-apps-spec/latest/).
-
-## Limitations
-
-The scaled windows of a launched application are contained inside a single Sway instance window with the display scale applied. So are the other application windows spawned from the said application.
 
 ## Requirements
 
