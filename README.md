@@ -24,7 +24,7 @@ swayscale "1.25" "ddd"
 1. Copy the repository files under the respective locations in your `$HOME` directory.
 1. Ensure that the directory path `$HOME/.local/bin/` is in the `$PATH` variable.
 
-You may have to update `font sans-serif medium` at the bottom of `.config/sway/custom_scale` to a font identifier that actually exists on the system.
+You may have to update `font sans-serif medium` at the bottom of `.config/sway/custom_scale` to a font identifier that actually exists on the system (run `fc-list`).
 
 ## Desktop files
 
