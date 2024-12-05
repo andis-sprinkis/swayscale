@@ -28,7 +28,7 @@ Related specifications: ["Desktop Entry Specification"](https://specifications.f
 
 All the scaled windows of an application are contained inside of a Sway instance window with the display scale applied.
 
-So are the other application windows spawned from the application inside the Sway instance window.
+And so are the other application windows spawned from the application inside the Sway instance window.
 
 ## Requirements
 
