@@ -7,7 +7,6 @@ gaps outer                    0
 smart_borders                 on
 hide_edge_borders             both
 focus_follows_mouse           yes
-focus_wrapping                yes
 title_align                   center
 default_border                normal 1
 default_floating_border       normal 1
@@ -49,15 +48,15 @@ for_window {
   [shell="xwayland"] title_format "[XW] %title"
 }
 
-input type:keyboard {
-  xkb_file ${XDG_CONFIG_HOME:-$HOME/.config}/xkb/keymap/kbd
-  repeat_delay 165
-  repeat_rate 55
-}
+# input type:keyboard {
+#   xkb_file ${XDG_CONFIG_HOME:-$HOME/.config}/xkb/keymap/kbd
+#   repeat_delay 165
+#   repeat_rate 55
+# }
 
-input type:pointer {
-  scroll_factor 0.75
-}
+# input type:pointer {
+#   scroll_factor 0.75
+# }
 
 output * {
   bg $rootBackground solid_color
