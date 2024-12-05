@@ -2,7 +2,7 @@
 
 A demonstration of a method of getting **per-application** GUI scaling on Linux, by containing the application in a window of a [Sway window manager](https://swaywm.org/) instance, with a custom display scale applied.
 
-It is indented for user interfaces of older applications which do not scale to the modern OS GUI font resolution, therefore appear tiny.
+It is indented to better display user interfaces of older applications which do not scale to the modern OS GUI font resolution, therefore appear tiny.
 
 ---
 
