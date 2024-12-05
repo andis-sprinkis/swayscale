@@ -29,7 +29,3 @@ To launch the upscaled application from the application launcher of a Linux desk
 See the example [`ddd_upscaled.desktop`](./.local/share/applications/ddd_upscaled.desktop) file.
 
 Related specifications: ["Desktop Entry Specification"](https://specifications.freedesktop.org/desktop-entry-spec/latest/), ["Association between MIME types and applications"](https://specifications.freedesktop.org/mime-apps-spec/latest/).
-
-## Requirements
-
-`sway` and `awk`.
