@@ -18,7 +18,7 @@ swayscale "1.35" "ddd"
 
 ## Desktop files
 
-To launch the upscaled application from the application launcher menu of a Linux desktop environment an XDG Desktop file (`*.desktop`) can be created in `${XDG_DATA_HOME:-$HOME/.local/share}/applications/` directory.
+To launch the upscaled application from the application launcher of a Linux desktop environment, a Desktop file can be created in `${XDG_DATA_HOME:-$HOME/.local/share}/applications/` directory.
 
 See the example [`ddd_upscaled.desktop`](./.local/share/applications/ddd_upscaled.desktop) file.
 
