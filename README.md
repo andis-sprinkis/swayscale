@@ -12,8 +12,6 @@ This repository is not a library, so just copy and modify these files to suit yo
 
 The scaled windows of an application are contained inside a single Sway instance window with the display scale applied. So are the other application windows spawned from the said application.
 
-## Screenshot
-
 ## Usage
 
 To launch application `ddd` at the display scale multiplied by `1.35`:
