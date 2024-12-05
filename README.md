@@ -18,6 +18,14 @@ To launch application `ddd` at the display scale multiplied by `1.25`:
 swayscale "1.25" "ddd"
 ```
 
+## Setup
+
+1. Install `sway`, `xorg-xwayland`.
+1. Copy the repository files under the respective locations in your `$HOME` directory.
+1. Ensure that the directory path `$HOME/.local/bin/` is in your `$PATH` variable.
+
+You may have to update `font sans-serif medium` in the bottom of `.config/sway/custom_scale` to a font identifier that actually exists on the system.
+
 ## Desktop files
 
 To launch the upscaled application from the application launcher of a Linux desktop environment, a Desktop file can be created in `${XDG_DATA_HOME:-$HOME/.local/share}/applications/` directory.
@@ -25,7 +33,3 @@ To launch the upscaled application from the application launcher of a Linux desk
 See the example [`ddd_upscaled.desktop`](./.local/share/applications/ddd_upscaled.desktop) file.
 
 Related specifications: ["Desktop Entry Specification"](https://specifications.freedesktop.org/desktop-entry-spec/latest/), ["Association between MIME types and applications"](https://specifications.freedesktop.org/mime-apps-spec/latest/).
-
-## Requirements
-
-`sway` and `awk`.
