@@ -2,7 +2,7 @@
 
 A demonstration of a simple method for getting **per-application GUI scaling** on Linux desktop, by containing the application in a window of a [Sway window manager](https://swaywm.org/) instance, with a custom display scale applied.
 
-It is indented to better display the user interfaces of older applications, which do not normally scale to modern OS GUI resolutions and therefore appear tiny.
+It is for better displaying the user interfaces of older applications, which do not normally scale to modern OS GUI resolutions and therefore appear tiny.
 
 **Running Sway as the host graphical environment is not required.** Sway can be launched in a window under X11 and Wayland. This is why I think this solution should work in most of the Linux GUI environments (let me know when it doesn't).
 
