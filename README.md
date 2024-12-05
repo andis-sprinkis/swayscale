@@ -4,9 +4,7 @@ A demonstration of a method of getting **per-application** GUI scaling on Linux,
 
 It is indented to better display user interfaces of older applications which do not scale to the modern OS GUI font resolution, therefore appear tiny.
 
----
-
-**Running Sway as the host graphical environment is not required.** Sway can be launched in a window under X11, so I do assume this solution works in most of the Linux GUI environments.
+**Running Sway as the host graphical environment is not required for this.** Sway can be launched in a window under X11, so I do assume this solution works in most of the Linux GUI environments.
 
 This repository is not a library, so just copy and adapt these files to your needs.
 
