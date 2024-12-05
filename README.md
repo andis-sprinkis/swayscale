@@ -8,10 +8,6 @@ It is indented to better display the user interfaces of older applications, whic
 
 This repository is not a library, so just copy and modify these files to suit your needs.
 
-## Limitations
-
-The scaled windows of an application are contained inside a single Sway instance window with the display scale applied. So are the other application windows spawned from the said application.
-
 ## Usage
 
 To launch application `ddd` at the display scale multiplied by `1.35`:
