@@ -22,7 +22,7 @@ swayscale "1.25" "ddd"
 
 1. Install `sway`, `xorg-xwayland`.
 1. Copy the repository files under the respective locations in your `$HOME` directory.
-1. Ensure that the directory path `$HOME/.local/bin/` is in your `$PATH` variable.
+1. Ensure that the directory path `$HOME/.local/bin/` is in the `$PATH` variable.
 
 You may have to update `font sans-serif medium` in the bottom of `.config/sway/custom_scale` to a font identifier that actually exists on the system.
 
