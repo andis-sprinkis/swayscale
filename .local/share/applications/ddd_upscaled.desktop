@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Data Display Debugger (upscaled)
+Name=Data Display Debugger (Upscaled)
 Exec=swayscale 1.35 ddd
 Terminal=false
 Type=Application
