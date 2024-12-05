@@ -6,7 +6,7 @@ It is indented for user interfaces of older applications which do not scale to t
 
 ---
 
-**Running Sway as the host graphical environment is not a requirement.** Sway can be launched in a window under X11, so I do assume this solution should work with most of the Linux GUI environments.
+**Running Sway as the host graphical environment is not required.** Sway can be launched in a window under X11, so I do assume this solution works in most of the Linux GUI environments.
 
 This repository is not a library, so just copy and adapt these files to your needs.
 
