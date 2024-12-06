@@ -33,7 +33,7 @@ swayscale "1.25" "ddd"
    ```
 1. Ensure that the directory path `$HOME/.local/bin/` is in the `$PATH` variable.
 
-   Add the line to `.profile` / `.bash_profile` / `.zshenv`:
+   Add the line to `.profile` / `.bash_profile` / `.zshenv` and re-login:
    
    ```sh
    export PATH="${HOME}/.local/bin:${PATH}"
