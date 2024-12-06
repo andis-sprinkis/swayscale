@@ -71,5 +71,5 @@ include /etc/sway/config.d/*
 
 # THE RELEVANT PART
 
-exec swaymsg "output * scale ${SWAYSCALE_SCALE:-1}; font sans-serif medium ${SWAYSCALE_FONT_SIZE:-13.5}"
+exec swaymsg "output * scale ${SWAYSCALE_SCALE}; font sans-serif medium ${SWAYSCALE_FONT_SIZE}"
 exec $SWAYSCALE_EXEC && swaymsg "exit"
