@@ -36,7 +36,7 @@ swayscale "1.25" "ddd"
    Add the line to `.profile` / `.bash_profile` / `.zshenv` and re-login:
    
    ```sh
-   export PATH="${HOME}/.local/bin:${PATH}"
+   export PATH="$HOME/.local/bin:$PATH"
    ```
 
 You may have to update `font sans-serif medium` in the `exec` line at the bottom of `.config/sway/custom_scale` to a font identifier that actually exists on the system (run `fc-list`).
