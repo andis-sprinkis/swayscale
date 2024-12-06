@@ -26,9 +26,9 @@ swayscale "1.25" "ddd"
    ```sh
    git clone "https://github.com/andis-sprinkis/swayscale"
    cd "./swayscale"
-   mkdir -p "$HOME/.config/sway" "$HOME/.local/bin"
+   mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/sway" "$HOME/.local/bin"
    cp ".local/bin/swayscale" "$HOME/.local/bin/swayscale"
-   cp ".config/sway/custom_scale" "$HOME/.config/sway/custom_scale"
+   cp ".config/sway/custom_scale" "${XDG_CONFIG_HOME:-$HOME/.config}/sway/custom_scale"
    chmod +x "$HOME/.local/bin/swayscale"
    ```
 1. Ensure that the directory path `$HOME/.local/bin/` is in the `$PATH` variable.
