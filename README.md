@@ -2,7 +2,7 @@
 
 A demonstration of a bit hacky, but simple method for getting **per-application display scaling** on Linux desktop.
 
-Purpose of this is to better display the user interfaces of older applications, which do not normally scale to modern OS GUI resolutions and therefore appear tiny.
+Purpose of this is to better display the user interfaces of older applications, which do not normally scale up to modern screen resolutions and therefore appear tiny.
 
 It is done by containing the application windows in a window of a [Sway window manager](https://swaywm.org/) instance, with a custom output display scale applied.
 
