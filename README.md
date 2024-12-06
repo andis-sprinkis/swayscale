@@ -4,7 +4,7 @@ A demonstration of a bit hacky, but simple method for getting **per-application 
 
 Purpose of this is to better display the user interfaces of older applications, which do not normally scale to modern OS GUI resolutions and therefore appear tiny.
 
-It is done by containing the application in a window of a [Sway window manager](https://swaywm.org/) instance, with a custom display scale applied.
+It is done by containing the application windows in a window of a [Sway window manager](https://swaywm.org/) instance, with a custom output display scale applied.
 
 **Running Sway as the host graphical environment is not required.** Sway can be launched in a window under X11 and Wayland. This is why I think this solution should work OK in most Linux GUI environments.
 
