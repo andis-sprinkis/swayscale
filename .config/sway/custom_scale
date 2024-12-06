@@ -48,18 +48,12 @@ for_window {
   [shell="xwayland"] title_format "[XW] %title"
 }
 
-# input type:keyboard {
-#   xkb_file ${XDG_CONFIG_HOME:-$HOME/.config}/xkb/keymap/kbd
-#   repeat_delay 165
-#   repeat_rate 55
-# }
-
 output * {
   bg $rootBackground solid_color
   scale_filter smart
 }
 
-# exec_always xrdb -retain -load "${XDG_CONFIG_HOME:-$HOME/.config}/xresources/.Xresources"
+# exec_always xrdb -retain -load "$HOME/.Xresources"
 
 set $mod Mod1
 
