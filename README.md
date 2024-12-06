@@ -12,7 +12,7 @@ This repository is not a library, so just copy and modify these files to suit yo
 
 ## Usage
 
-To launch application `ddd` at the display scale multiplied by `1.25`:
+To launch application `ddd` at the display output scale multiplied by `1.25`:
 
 ```sh
 swayscale "1.25" "ddd"
