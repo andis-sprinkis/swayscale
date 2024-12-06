@@ -1,6 +1,6 @@
 # Per-application display scaling on Linux using the Sway WM instances
 
-A demonstration of a bit hacky, but simple method for getting **per-application GUI scaling** on Linux desktop.
+A demonstration of a bit hacky, but simple method for getting **per-application display scaling** on Linux desktop.
 
 Purpose of this is to better display the user interfaces of older applications, which do not normally scale to modern OS GUI resolutions and therefore appear tiny.
 
